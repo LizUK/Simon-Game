@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+  background-color: #324E5C;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  max-width: 665px;
+  min-height: 665px;
+  width: 665px;
+  height: 665px;
+  background: url('images/console.png') no-repeat;
+  background-size: 100%;
+  margin: auto;
+  position:relative;
+
+}
+
+/*.overlay {
+  display: block;
+  width: 100%;
+  max-width: 665px;
+  min-height: 665px;
+  background: url('images/overlay.png') no-repeat;
+  background-size: 100%;
+  position:absolute;
+  z-index:5;
+	
+}*/
+
+.row {
+	margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  height: 325px;
+  width: 325px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+}
+
+.green {
+}
+
+.blue {
+}
+
+.yellow {
+}
+
+.red:hover {
+	background: url('images/red-hover.png') no-repeat;
+	background-size: 90%;
+    background-position: 23% 80%;
+}
+
+.green:hover {
+	background: url('images/green-hover.png') no-repeat;
+	background-size: 90%;
+    background-position: 71% 85%;
+}
+
+.blue:hover {
+	background: url('images/blue-hover.png') no-repeat;
+	background-size: 90%;
+    background-position: 28% 19%;
+}
+
+.yellow:hover {
+	background: url('images/yellow-hover.png') no-repeat;
+	background-size: 90%;
+    background-position: 70% 15%;
+}
+
+
+.red.pressed,
+.red.chosen {
+	background: url('images/red-pressed.png') no-repeat;
+	background-size: 93%;
+    background-position: 23% 80%;
+}
+
+.green.pressed,
+.green.chosen  {
+	background: url('images/green-pressed.png') no-repeat;
+	background-size: 93%;
+    background-position: 71% 85%;
+}
+
+.blue.pressed,
+.blue.chosen  {
+	background: url('images/blue-pressed.png') no-repeat;
+	background-size: 93%;
+    background-position: 28% 19%;
+}
+
+.yellow.pressed,
+.yellow.chosen  {
+	background: url('images/yellow-pressed.png') no-repeat;
+	background-size: 93%;
+    background-position: 70% 15%;
+}
+
+/*.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}*/
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	.container {
+	  width: 100%;
+	  max-width: 345px;
+	  min-height: 345px;
+	  width: 345px;
+	  height: 345px;
+	}
+
+	
+}
